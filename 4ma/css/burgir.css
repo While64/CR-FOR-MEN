@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 800px;
+    background: linear-gradient(45deg, rgb(245, 182, 255), rgb(1, 1, 1));
+    background-size: cover;
+    margin: 0px auto;
+}
+
+header, footer{
+    height: 100px;
+    text-align: center;
+    background-color: rgba(179, 112, 251, 0.5);
+    border-radius: 50px 50px 10px 10px;
+    margin-top: 20px;   
+}
+
+header>h1{
+    width: 600px;
+    margin: 0px auto;
+    margin-top: 5px;
+    font-size: 50px;
+}
+
+section{
+        background: rgba(225, 0, 255, 0.5);
+        padding: 50px;
+        border-radius: 20px;
+}
+
+#estSize{
+    height: 100px;
+    background: rgb(181, 64, 254);
+    font-size: 20px;
+    color: rgb(98, 0, 125);
+    text-align: center;
+    padding-top: 20px;
+}
+
+#estSize>label{
+    margin-right: 20px;
+}
+
+#estEsp{
+    height: 100px;
+    background: rgb(167, 26, 255);
+    font-size: 20px;
+    color: rgb(98, 0, 125);
+    text-align: center;
+    padding-top: 20px;
+}
+
+#estEsp>select{
+    font-size: 20px;
+    background: rgba(228, 170, 255, 0.815);
+    width: 200px;
+}
+
+#estExtras{
+    height: 100px;
+    background: rgb(131, 58, 177);
+    font-size: 20px;
+    color: rgb(98, 0, 125);
+    text-align: center;
+    padding-top: 20px;
+}
+
+#estextras>input{
+    margin-left: 20px;
+}
+
+#estExtras>label{
+    margin-right: 20px;
+}
+
+#estData{
+    background: rgb(68, 0, 111);
+    font-size: 20px;
+    color: rgb(99, 0, 126);
+    text-align: center;
+    padding-top: 20px;
+}
+
+textarea{
+    resize: none;
+}
+
+footer{
+    border-radius: 10px 10px 50px 50px;
+    font-size: 20px;
+    line-height: 100px;
+}

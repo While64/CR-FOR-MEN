@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.:: Burgir ::.</title>
+    <link rel="stylesheet" href="./css/burgir.css">
+</head>
+<body>
+    <header>
+        <h1>Cangreburguito</h1>
+    </header>
+
+    <main>
+        <section>
+            <form method="post" action="#">
+
+                <fieldset id="estSize">
+                    <legend>Size</legend>
+                    <input type="radio" name="size" id="sizes">
+                    <label for="sizes">Small</label>
+                    <input type="radio" name="size" id="sizem">
+                    <label for="sizem">Medium</label>
+                    <input type="radio" name="size" id="sizem" checked>
+                    <label for="sizel">Big</label>
+                </fieldset>
+
+                <fieldset id="estEsp">
+                    <legend>Uniques</legend>
+                    <select name="esp" id="esp" required>
+                        <option value="tri">Triple</option>
+                        <option value="dou">Double</option>
+                        <option value="ches" selected>Cheeseburgir</option>
+                        <option value="wes">Western</option>
+                        <option value="guac">Guacamole</option>
+                        <option value="veg">Veggie</option>
+                    </select>
+                </fieldset>
+
+                <fieldset id="estExtras">
+                    <legend>Extras</legend>
+                    <input type="checkbox" name="cheese" id="cheese" value="Cheese">
+                    <label for="cheese">Cheese</label>
+
+                    <input type="checkbox" name="bac" id="bac" value="Bacon">
+                    <label for="bac">Bacon</label>
+
+                    <input type="checkbox" name="pic" id="pic" value="Pickles">
+                    <label for="pic">Pickles</label>
+
+                    <input type="checkbox" name="or" id="or" value="Onion">
+                    <label for="or">Onion Rings</label>
+                </fieldset>
+
+                <fieldset id="estData">
+                    <legend>Data</legend>
+                    <label for="nom">Full Name</label>
+                    <input type="text" name="nom" id="nom" required placeholder="Full Name">
+                    <br><br>
+                    <label for="tel">Phone Number</label>
+                    <input type="tel" name="tel" id="tel" required placeholder="(123) 456-78-90">
+                    <br><br>
+                    <label for="dir">Adress</label>
+                    <textarea name="dir" id="dir" placeholder="Adress" required cols="30" 
+                    rows="5" style="resize: none;"></textarea>
+                    <br><br>
+                    <label for="coms">Coms</label>
+                    <textarea name="coms" id="coms" cols="30" rows="5"></textarea>
+
+                </fieldset>
+
+                <br>
+
+                <input type="reset" value="Clear">
+                <input type="submit" value="Submit">
+
+
+            
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <span>Copyright Jesus Garcia 2026&copy;</span>
+    </footer>
+</body>
+</html>
